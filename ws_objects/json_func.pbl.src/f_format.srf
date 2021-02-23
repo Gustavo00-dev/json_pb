@@ -1,0 +1,12 @@
+﻿$PBExportHeader$f_format.srf
+$PBExportComments$Format Json
+global type f_format from function_object
+end type
+
+forward prototypes
+global function integer f_format (string arg_name)
+end prototypes
+
+global function integer f_format (string arg_name);return 1
+end function
+
